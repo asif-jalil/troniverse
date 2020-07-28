@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- title here -->
+  <title>Troniverse HTML Template</title>
+
+
+  <!-- all CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+
+
+
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+  <main>
+    <!-- header area start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <ul class="navbar-nav navbar-left">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-gamepad-alt"></i> <span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-book-open"></i> <span>How To Play</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-digging"></i> <span>Dividneds</span></a>
+          </li>
+        </ul>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav navbar-right ml-auto">
+            <li class="nav-item" id="notification">
+              <a class="nav-link" href="#"><i class="far fa-bell"></i> <span>You just received 500 EXP.</span></a>
+            </li>
+            <li class="nav-item nav-social" id="social1">
+              <a class="nav-link" href="#"><i class="fas fa-paper-plane"></i></a>
+            </li>
+            <li class="nav-item nav-social" id="social2">
+              <a class="nav-link" href="#"><i class="fas fa-gamepad"></i></a>
+            </li>
+            <li class="nav-item nav-balance" id="exp-balance">
+              <a class="nav-link" href="#">EXP Balance <span>100,000 EXP</span></a>
+            </li>
+            <li class="nav-item nav-balance" id="balance">
+              <a class="nav-link" href="#">Balance <span>100,000 TRX</span></a>
+            </li>
+            <li class="nav-item dropdown" id="author">
+              <a class="nav-link dropdown-toggle" href="#" id="account" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span>
+                  <img src="img/author.png" alt="author">
+                </span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="account">
+                <a class="dropdown-item" href="#">Dashboard</a>
+                <a class="dropdown-item" href="#">Account Settings</a>
+                <a class="dropdown-item" href="#">Profile</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- header area end -->
+
+    <!-- sidebar area start -->
+    <div class="sidebar-section">
+      <div class="open-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="sidebar">
+        <li class="close-btn"><a href="#"><i class="fas fa-times"></i></a></li>
+        <li><a href="#"><img src="img/menu.png" alt="menu" class="img-fluid"></a></li>
+        <li class="active"><a href="#"><img src="img/1.png" alt="menu" class="img-fluid"></a></li>
+        <li><a href="#"><img src="img/2.png" alt="menu" class="img-fluid"></a></li>
+        <li><a href="#"><img src="img/3.png" alt="menu" class="img-fluid"></a></li>
+        <li><a href="#"><img src="img/4.png" alt="menu" class="img-fluid"></a></li>
+        <li><a href="#"><img src="img/5.png" alt="menu" class="img-fluid"></a></li>
+        <li><a href="#"><img src="img/6.png" alt="menu" class="img-fluid"></a></li>
+        <li><a href="#"><img src="img/7.png" alt="menu" class="img-fluid"></a></li>
+      </ul>
+    </div>
+    <!-- sidebar area end -->
+
+    <!-- main body area start -->
+    <div class="main-body">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl">
+            <div class="body-left-section">
+              <ul class="nav nav-pills wl-tab" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="winning-tab" data-toggle="pill" href="#winning" role="tab"
+                    aria-controls="winning" aria-selected="true">last winning</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="leaderboard-tab" data-toggle="pill" href="#leaderboard" role="tab"
+                    aria-controls="leaderboard" aria-selected="false">leaderboard</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="winning" role="tabpanel" aria-labelledby="winning-tab">
+                  <div class="winning-content-wrapper">
+                    <table class="table winning-table">
+                      <thead>
+                        <tr>
+                          <th><a href="#">Tronie</a></th>
+                          <th><a href="#">Game</a></th>
+                          <th><a href="#">Win</a></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+100K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+40K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+10M TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+40K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+10K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+400K TRX</span></h6>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="leaderboard" role="tabpanel" aria-labelledby="leaderboard-tab">
+                  <div class="winning-content-wrapper">
+                    <table class="table winning-table">
+                      <thead>
+                        <tr>
+                          <th><a href="#">Tronie</a></th>
+                          <th><a href="#">Game</a></th>
+                          <th><a href="#">Win</a></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+50K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+4000K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+900K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+80K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+1000K TRX</span></h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td scope="row">
+                            <img src="img/author.png" alt="author" class="winning-author"><span>tronie</span>
+                          </td>
+                          <td>
+                            <img src="img/game-icon.png" alt="" class="game-icon">
+                          </td>
+                          <td>
+                            <h6 class="winning-ammount"><span>+40K TRX</span></h6>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-5">
+            <div class="body-middle-section">
+              <div class="row gutter-10">
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="single-item">
+                    <img src="img/box.png" alt="box" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl">
+            <div class="chatting-section">
+              <div class="chatting-header">
+                <span>chat</span>
+                <span class="chat-count">100</span>
+                <div class="eye-btn">
+                  <i class="fas fa-eye-slash"></i>
+                </div>
+              </div>
+              <div class="chatting-body">
+                <div>
+                  <div class="single-chat">
+                    <div class="chat-meta">
+                      <img src="img/author.png" alt="chat author" class="chat-author">
+                      <h5>tronie</h5>
+                      <span>Today, 21:35 CET</span>
+                    </div>
+                    <div class="conversion">
+                      Hello everybody, this is tronie! I am new to this platform, but it’s seems to be the best I’ve
+                      seen
+                      so far.
+                    </div>
+                  </div>
+
+                  <div class="single-chat">
+                    <div class="chat-meta">
+                      <img src="img/author.png" alt="chat author" class="chat-author">
+                      <h5>tronie</h5>
+                      <span>Today, 21:35 CET</span>
+                    </div>
+                    <div class="conversion ex-pad">
+                      Hey <span class="mention">@tronie</span> nice to meet you and welcome to tronieverse! <img
+                        src="img/like.png" alt="like icon">
+                      <div class="chat-reaction">
+                        <span class="react haha"><span><img src="img/haha.png" alt="haha react"> 21</span></span>
+                        <span class="react love"><span><img src="img/love.png" alt="love react"> 7</span></span>
+                        <span class="react like"><span><img src="img/like.png" alt="like react"> 14</span></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="single-chat">
+                    <div class="conversion ex-pad" id="game">
+                      Oh wow! <span class="mention">@tronie</span> just won 100k TRX at <span>Ladder</span>
+                      <div class="play">Play</div>
+                    </div>
+                  </div>
+
+                  <div class="single-chat">
+                    <div class="chat-meta">
+                      <img src="img/author.png" alt="chat author" class="chat-author">
+                      <h5>tronie</h5>
+                      <span>Today, 21:35 CET</span>
+                    </div>
+                    <div class="conversion">
+                      Hello everybody, this is tronie! I am new to this platform, but it’s seems to be the best I’ve
+                      seen
+                      so far.
+                    </div>
+                  </div>
+
+                  <div class="single-chat">
+                    <div class="chat-meta">
+                      <img src="img/author.png" alt="chat author" class="chat-author">
+                      <h5>tronie</h5>
+                      <span>Today, 21:35 CET</span>
+                    </div>
+                    <div class="conversion ex-pad">
+                      Hey <span class="mention">@tronie</span> nice to meet you and welcome to tronieverse! <img
+                        src="img/like.png" alt="like icon">
+                      <div class="chat-reaction">
+                        <span class="react haha"><span><img src="img/haha.png" alt="haha react"> 21</span></span>
+                        <span class="react love"><span><img src="img/love.png" alt="love react"> 7</span></span>
+                        <span class="react like"><span><img src="img/like.png" alt="like react"> 14</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="chatting-footer">
+                  <span class="emoji"><i class="far fa-smile"></i></span>
+                  <input type="text" name="message" placeholder="Type your message.." class="write-message">
+                  <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- main body area end -->
+
+
+
+
+  </main>
+
+
+  <!-- jQuery JS -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="js/vendor/jquery-3.4.1.min.js"></script>
+
+  <!-- bootstrap JS -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- slick JS -->
+
+
+  <!-- main JS -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
